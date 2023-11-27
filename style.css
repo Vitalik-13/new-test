@@ -476,7 +476,9 @@ a {
     align-items: center;
     flex-direction: column;
   }
-
+  .header-button {
+    display: none;
+  }
   .main-text-content {
     max-width: 100%;
     text-align: center;
@@ -564,6 +566,14 @@ a {
     font-size: 50px;
     font-weight: 600;
   }
+}
+.footer-content {
+  flex-direction: column;
+  gap: 40px 0;
+  align-items: center;
+}
+.footer-title {
+  padding-bottom: 5px;
 }
 @media (max-width: 450px) {
   .wy-us-list {
