@@ -10,7 +10,7 @@ $(document).ready(function () {
         breakpoint: 880,
         settings: {
           slidesToShow: 1,
-          // slidesToScroll: 1,
+          slidesToScroll: 1,
         },
       },
     ],
@@ -29,8 +29,6 @@ descripshionListTitle.forEach((item, idx) => {
 });
 
 const showButton = document.querySelector(".header-button");
-console.log(showButton);
-
 document.addEventListener("scroll", () => {
   if (scrollY > 50) {
     showButton.classList.add("show");
