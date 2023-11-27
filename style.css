@@ -8,12 +8,22 @@ a {
 }
 .body {
   font-family: Merriweather;
-  background-image: url(images/5053309.jpg);
+  position: relative;
   overflow-x: hidden;
+}
+.body::before {
+  content: "";
+  background-image: url(images/5053309.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 .main-section {
   width: 100%;
