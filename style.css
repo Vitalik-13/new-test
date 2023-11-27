@@ -124,6 +124,10 @@ a {
   line-height: 30px;
   font-size: 18px;
   color: #ffd700;
+  padding: 20px;
+  border-radius: 20px;
+  padding-left: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 .main-foto-container {
   width: 30%;
@@ -158,6 +162,7 @@ a {
 }
 .phone-foto {
   padding-bottom: 15px;
+  color: #ffd700;
 }
 .white-span {
   color: white;
@@ -347,6 +352,9 @@ a {
   line-height: 25px;
   font-weight: 400;
   color: #ffd700;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .sup-description-list {
@@ -598,5 +606,13 @@ a {
   }
   .main-title {
     font-size: 40px;
+  }
+}
+@media (max-width: 390px) {
+  .slick-arrow.slick-prev {
+    left: 20%;
+  }
+  .slick-arrow.slick-next {
+    right: 20%;
   }
 }
